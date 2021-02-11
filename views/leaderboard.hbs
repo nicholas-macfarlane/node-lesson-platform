@@ -1,0 +1,19 @@
+<p>
+  Welcome, {{user}} 
+  &nbsp;
+  Leaderboard
+  &nbsp;
+  <a href="/lessons">Lessons</a>
+  &nbsp;
+  <a href="/logout">Logout</a>
+</p>
+
+<h1>Top Ten Learners(lessons completed)</h1>
+
+<ol>
+  {{#each leaderBoard}}
+    <li>
+      {{email}}:{{lessons_completed.length}}
+    </li>
+  {{/each}}
+</ol>

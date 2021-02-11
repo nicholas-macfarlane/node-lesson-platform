@@ -1,0 +1,21 @@
+<p>
+  Welcome, {{user}} 
+  &nbsp;
+  <a href="/leaderboard">Leaderboard</a>
+  &nbsp;
+  Lessons
+  &nbsp;
+  <a href="/logout">Logout</a>
+</p>
+
+<h1>Lessons Library</h1>
+
+<ul>
+  {{#each lessons}}
+    <li>
+      <a href="/lessons/{{id}}">
+      {{name}}: {{description}}
+      </a>
+    </li>
+  {{/each}}
+</ul>
