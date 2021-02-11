@@ -15,12 +15,13 @@ Postgresql(with DB named platform),
 Auth0(for user authentication)
 
 ## setup
-0. Assumes: 
- 0. A local, empty postgresql database named 'platform'. pgsql/createDB.pgsql contains syntax for creating the database, if one does not exist. Variables can be configured in the ".env template" file.
- 
- This needs to be renamed to .env after you've confirmed you have the correct info filled in for your db connection. The cert and key files used for testing have been included, along with the Auth0 credentials for testing.
+0. Assumes: Basic knowledge of command line/terminal, npm, node, linux, sql, and/or git.
 
- 1. Basic knowledge of command line/terminal, npm, node, linux, sql, and/or git.
+A local, empty postgresql database named 'platform'. pgsql/createDB.pgsql contains syntax for creating the database, if one does not exist. Variables can be configured in the ".env template" file.
+ 
+This needs to be renamed to .env after you've confirmed you have the correct info filled in for your db connection. The cert and key files used for testing have been included, along with the Auth0 credentials for testing.
+
+
 1. Clone/unzip repository into new project directory.
 2. From the terminal, browse to the new project directory and run "npm install".
 3. After dependencies are installed, fill in the db connection information in .env
