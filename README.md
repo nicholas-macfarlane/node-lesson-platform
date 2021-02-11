@@ -6,14 +6,13 @@
 This is a node server with auth,db,and templating. There's not much in the UX department at this time, and I've tried to make note some of the more obvious next-steps, but overall I've focused more on the backend processes and haven't addressed a nice-looking UI, i.e. bootstrap/etc vue/react/etc.
 
 ## technology stack:
-0. Node.JS
-  0.Express
-  1.Sequelize(Persistence library)
-  2.Handlebars(Templating Library)
-  3.Populate (utility function I wrote to come up with random and often amusing db data)
-1. Postgresql(with DB named platform)
-2. Auth0(for user authentication)
-
+Node.JS
+Express
+Sequelize(Persistence library)
+Handlebars(Templating Library)
+Populate (utility function I wrote to come up with random and often amusing db data)
+Postgresql(with DB named platform)
+Auth0(for user authentication)
 
 ## setup
 0. Assumes: 
